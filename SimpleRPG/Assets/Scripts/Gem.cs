@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Key : Collectable
+public class Gem : Collectable
 {
     public override Sprite GetSprite()
     {
-        return CollectableList.Instance.key;
+        return CollectableList.Instance.gem;
     }
+
 }
